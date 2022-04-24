@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdStudent": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "TempatTanggalLahir": {
+      "type": "date"
+    },
+    "NamaOrangTua": {
+      "type": "string"
+    },
+    "Alamat": {
+      "type": "richtext"
+    },
+    "IdSekolah": {
+      "type": "string"
+    },
+    "Prestasi": {
+      "type": "richtext"
+    },
+    "ProfilePicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

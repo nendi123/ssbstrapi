@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coaches",
+  "info": {
+    "singularName": "coach",
+    "pluralName": "coaches",
+    "displayName": "Coach",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdCoach": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "TempatTanggalLahir": {
+      "type": "date"
+    },
+    "Alamat": {
+      "type": "richtext"
+    },
+    "Hp": {
+      "type": "string"
+    },
+    "Pengalaman": {
+      "type": "richtext"
+    },
+    "Sertifikat": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ProfilePicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

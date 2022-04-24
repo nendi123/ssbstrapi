@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_profiles",
+  "info": {
+    "singularName": "user-profile",
+    "pluralName": "user-profiles",
+    "displayName": "UserProfile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama": {
+      "type": "string"
+    },
+    "Hp": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "JenisIdentitas": {
+      "type": "string"
+    },
+    "NoIdentitas": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "TanggalLahir": {
+      "type": "date"
+    }
+  }
+}

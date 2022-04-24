@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "merchandises",
+  "info": {
+    "singularName": "merchandise",
+    "pluralName": "merchandises",
+    "displayName": "Merchandise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdMerchendise": {
+      "type": "string"
+    },
+    "Merchandise": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer"
+    }
+  }
+}

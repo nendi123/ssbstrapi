@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_schedules",
+  "info": {
+    "singularName": "training-schedule",
+    "pluralName": "training-schedules",
+    "displayName": "TrainingSchedule"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdTraining": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "WaktuLatihan": {
+      "type": "date"
+    },
+    "JamLatihan": {
+      "type": "time"
+    },
+    "JamBerakhir": {
+      "type": "time"
+    },
+    "TempatLatihan": {
+      "type": "string"
+    }
+  }
+}

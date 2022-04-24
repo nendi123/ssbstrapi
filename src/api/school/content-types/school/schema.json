@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schools",
+  "info": {
+    "singularName": "school",
+    "pluralName": "schools",
+    "displayName": "School"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdSekolah": {
+      "type": "string"
+    },
+    "NamaSekolah": {
+      "type": "string"
+    },
+    "TempatLatihan": {
+      "type": "string"
+    },
+    "Alamat": {
+      "type": "richtext"
+    },
+    "Pemilik": {
+      "type": "string"
+    },
+    "TanggalBerdiri": {
+      "type": "string"
+    },
+    "JumlahSiswa": {
+      "type": "integer"
+    },
+    "SaranaPrasarana": {
+      "type": "richtext"
+    }
+  }
+}
